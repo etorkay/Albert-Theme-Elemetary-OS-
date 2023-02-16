@@ -1,0 +1,121 @@
+
+
+
+/* 
+ * author:Sessi
+ * adapted from: Bart Zaalberg <https://github.com/bartzaalberg>
+ *
+ * Check http://doc.qt.io/qt-5/stylesheet-syntax.html especially the subtopics:
+ * The Style Sheet Syntax (http://doc.qt.io/qt-5/stylesheet-syntax.html)
+ * Qt Style Sheets Reference (http://doc.qt.io/qt-5/stylesheet-reference.html)
+ */
+
+* {
+  	border: none;
+	color : #808080;
+	background-color: #404040;
+
+}
+
+#frame {
+	padding: 10px;
+	border-radius: 4px;
+	background-color: #303030;
+	border: 1px solid #303030;
+  /* Workaround for Qt to get fixed size button*/
+	min-width:640px; 
+	max-width:640px;
+}
+
+#inputLine { 
+	padding: 0px;
+	border-radius: 2px;
+	border: 1px;
+	font-size:15px;
+	selection-color: #404040;
+	selection-background-color: #757677;
+	background-color: #303030;
+	padding-left:10px;
+	margin-right:20px;
+	color:white;
+}
+
+#settingsButton {
+	color : #808080;
+	background-color: #303030;
+  	padding: 4px;
+
+  /* Respect the frame border */
+  margin: 12px 6px 0px 0px;
+  border-top-right-radius: 6px;
+  border-bottom-left-radius: 10px;
+
+  /* Workaround for Qt to get fixed size button*/
+	min-width:13px;
+	min-height:13px;
+	max-width:13px;
+	max-height:13px;
+}
+
+/********** ListViews **********/
+
+QListView {
+    	selection-color:  #f5f5f5;
+	background-color: #303030;
+}
+
+QListView::item {
+	background-color: #303030;
+	padding:6px;
+}
+
+QListView::item:selected {
+	border-radius: 4px;
+	background-color: #525355;
+}
+
+QListView QScrollBar:vertical  {
+	width: 5px;
+	background: transparent;
+}
+
+QListView QScrollBar::handle:vertical  {
+	background: #808080;
+	min-height: 24px;
+}
+
+QListView QScrollBar::add-line:vertical, QScrollBar::sub-line:vertical,
+QListView QScrollBar::up-arrow:vertical, QScrollBar::down-arrow:vertical,
+QListView QScrollBar::add-page:vertical, QScrollBar::sub-page:vertical {
+	border: 0px;
+	width: 0px;
+	height: 0px;
+	background: #525355;
+}
+
+/********** actionList **********/
+
+QListView#actionList {
+	font-size: 15px;
+	color: white;
+}
+
+QListView#actionList::item{
+	height:28px;
+}
+
+/********** resultsList **********/
+
+QListView#resultsList {
+	icon-size: 35px;
+	font-size: 13px;
+	color: #808080;
+	fill: #808081;
+	font-family: "Open Sans";
+	src: url("//fonts.googleapis.com/css?family=Open+Sans");
+	font-weight: 400;
+}
+
+QListView#resultsList::item{
+	height:48px;
+} 
