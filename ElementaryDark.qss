@@ -2,12 +2,13 @@
 
 
 /* 
- * author:Sessi
+ * author:Sessi <https://github.com/etorkay>
  * adapted from: Bart Zaalberg <https://github.com/bartzaalberg>
  *
  * Check http://doc.qt.io/qt-5/stylesheet-syntax.html especially the subtopics:
  * The Style Sheet Syntax (http://doc.qt.io/qt-5/stylesheet-syntax.html)
  * Qt Style Sheets Reference (http://doc.qt.io/qt-5/stylesheet-reference.html)
+ * Albert Dark Theme for Elementary OS
  */
 
 * {

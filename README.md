@@ -1,4 +1,4 @@
-#Elementary Dark Theme For Albert Launcher
+# Elementary Dark Theme For Albert Launcher
 
 ![Screenshot Elementary Dark](/image/01.png)
 
@@ -6,3 +6,5 @@
 2. Select "ElementaryDark" theme in Albert's Settings.
 3. Restart Albert
 4. Enjoy!
+
+Thanks to 
